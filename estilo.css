@@ -1,0 +1,1023 @@
+body {
+    background: linear-gradient(to top, rgba(33, 34, 34, 0.8), rgb(21, 24, 26));
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Goudy Stout';
+}
+
+.inicio .contenido-banner h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover {
+    background-color: #1CB698;
+}
+
+/* Media queries para hacer el contenido más pequeño en móviles */
+@media (max-width: 600px) {
+    .inicio .contenido-banner {
+        max-width: 90%; /* Ajusta el ancho al 90% en móviles */
+        padding: 15px; /* Reduce el padding */
+    }
+
+    .inicio .contenido-banner h1 {
+        font-size: 32px; /* Reduce el tamaño de fuente */
+    }
+
+    .inicio .contenido-banner h2 {
+        font-size: 18px; /* Reduce el tamaño de fuente */
+    }
+
+    .inicio .contenido-banner img {
+        width: 70%; /* Ajusta el tamaño de la imagen */
+    }
+
+    .inicio .contenido-banner .redes a {
+        width: 36px; /* Reduce el tamaño de los íconos */
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px; /* Reduce el tamaño de fuente */
+        margin: 30px 3px; /* Reduce los márgenes */
+    }
+}
+
+
+
+
+/* MENU */
+
+.calu {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.calu header {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.calu header .logo a {
+    font-family: 'Goudy Stout';
+    font-size: 30px;
+    color: #1CB698;
+    text-decoration: none;
+}
+
+.calu header ul {
+    display: flex;
+    list-style: none;
+}
+
+.calu header nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-family: 'Goudy Stout';
+    font-size: 13px; /* Tamaño de fuente ajustado */
+}
+
+.calu header nav ul li a:hover {
+    color: #1CB698;
+}
+
+.calu .nav-responsive {
+    background-color: #1CB698;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Media queries para móviles */
+@media (max-width: 600px) {
+    .calu header {
+        padding: 3px 5px; /* Reduce el padding en móviles */
+    }
+
+    .calu header .logo a {
+        font-size: 20px; /* Tamaño de fuente del logo aún más reducido */
+    }
+
+    .calu header nav ul li a {
+        font-size: 10px; /* Tamaño de fuente de los enlaces reducido aún más */
+        margin: 0 3px; /* Margen reducido */
+        padding: 1px; /* Padding aún más reducido */
+    }
+}
+
+
+/* SECCION I N I C I O */
+
+.inicio {
+    background: url(imagen/12.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Para centrar contenido */
+    position: relative;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 35px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto; /* Esto centra la imagen horizontalmente */
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+/* MENU */
+
+.calu {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.calu header {
+    max-width: 1500px;
+    margin: auto; /* Mantiene el centrado en pantallas grandes */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Padding por defecto para PC */
+}
+
+.calu header .logo a {
+    font-family: 'Goudy Stout';
+    font-size: 30px;
+    color: #1CB698;
+    text-decoration: none;
+}
+
+.calu header ul {
+    display: flex;
+    list-style: none;
+}
+
+.calu header nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-family: 'Goudy Stout';
+    font-size: 13px; /* Tamaño de fuente ajustado */
+}
+
+.calu header nav ul li a:hover {
+    color: #1CB698;
+}
+
+.calu .nav-responsive {
+    background-color: #1CB698;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* Media queries para hacer el menú más pequeño en móviles */
+@media (max-width: 600px) {
+    .calu header {
+        margin: 0; /* Elimina el margen para móviles */
+        justify-content: flex-start; /* Alinear todo a la izquierda */
+        padding: 5px 10px; /* Aumenta el padding */
+    }
+
+    .calu header .logo a {
+        font-size: 14px; /* Tamaño de la fuente del logo aumentado */
+        margin-right: 10px; /* Espacio entre el logo y el menú aumentado */
+    }
+
+    .calu header nav ul li a {
+        font-size: 8px; /* Tamaño de fuente de los enlaces aumentado */
+        margin: 0 2px; /* Margen aumentado */
+        padding: 2px; /* Padding aumentado */
+    }
+}
+
+
+
+/* SECCION I N I C I O */
+
+.inicio {
+    background: url(imagen/12.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Para centrar contenido */
+    position: relative;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    max-width: 350px; /* Mantiene el tamaño para pantallas grandes */
+    text-align: center;
+    border-radius: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.inicio .contenido-banner img {
+    margin-top: 35px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%; /* Tamaño por defecto para pantallas grandes */
+    margin: auto; /* Centra la imagen horizontalmente */
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    font-size: 42px; /* Tamaño por defecto para pantallas grandes */
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h2 {
+    font-size: 15px; /* Tamaño por defecto para pantallas grandes */
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px; /* Tamaño por defecto para pantallas grandes */
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px; /* Tamaño por defecto para pantallas grandes */
+    transition: .3s;
+}
+
+/* Media queries para hacer el contenido más pequeño en móviles */
+@media (max-width: 600px) {
+    .inicio .contenido-banner {
+        padding: 2px; /* Reduce aún más el padding */
+        width: 98%; /* Aumenta el ancho al 98% en móviles */
+        margin: 0 auto; /* Asegura que esté centrado */
+    }
+
+    .inicio .contenido-banner img {
+        width: 30%; /* Ajusta el tamaño de la imagen para móviles */
+    }
+
+    .inicio .contenido-banner h1 {
+        font-size: 16px; /* Reduce el tamaño de fuente para móviles */
+        margin-top: 10px; /* Reduce el margen superior */
+    }
+
+    .inicio .contenido-banner h2 {
+        font-size: 6px; /* Reduce aún más el tamaño de fuente para móviles */
+    }
+
+    .inicio .contenido-banner .redes a {
+        width: 20px; /* Reduce el tamaño de los íconos para móviles */
+        height: 20px;
+        line-height: 20px;
+        font-size: 8px; /* Reduce el tamaño de fuente para móviles */
+        margin: 10px 1px; /* Reduce los márgenes para móviles */
+    }
+}
+
+
+/* sobremi  */
+
+.sobremi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2 {
+    font-size: 48px;
+    font-family: 'Goudy Stout';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .contenido-seccion p {
+    font-size: 18px; /* Cambiado a font-size */
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido-seccion p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.sobremi .fila {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las columnas se ajusten en móviles */
+}
+
+.sobremi .fila .col {
+    width: 50%;
+}
+
+.sobremi .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul {
+    list-style: none;
+}
+
+.sobremi .fila .col ul li {
+    margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span {
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sobremi .fila .col .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes {
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes:hover {
+    background-color: #1CB698;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.sobremi button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay {
+    width: 100%;
+}
+
+/* Media queries para hacer el contenido más pequeño en móviles */
+@media (max-width: 600px) {
+    .sobremi {
+        padding: 20px 5px; /* Reduce el padding en móviles */
+    }
+
+    .sobremi h2 {
+        font-size: 24px; /* Reduce el tamaño de fuente para móviles */
+    }
+
+    .sobremi .contenido-seccion p {
+        font-size: 14px; /* Reduce el tamaño de fuente para móviles */
+    }
+
+    .sobremi .fila .col {
+        width: 100%; /* Las columnas ocupan el 100% en móviles */
+        margin-bottom: 15px; /* Añade margen inferior para separación */
+    }
+
+    .sobremi .fila .col h3 {
+        font-size: 20px; /* Reduce el tamaño de fuente para móviles */
+    }
+
+    .sobremi .fila .col .contenedor-intereses .interes {
+        width: 60px; /* Reduce el tamaño de los intereses para móviles */
+        height: 60px; /* Reduce la altura de los intereses */
+    }
+
+    .sobremi button {
+        font-size: 12px; /* Reduce el tamaño de fuente del botón */
+        padding: 6px 12px; /* Reduce el padding del botón */
+    }
+}
+
+
+
+/* SECCION S K I L L S */
+.skills {
+    background-color: #151616;
+    color: #f1e9e9;
+    padding: 50px 20px;
+}
+.skills .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2 {
+    font-size: 48px; /* Tamaño en pantallas grandes */
+    font-family: 'Goudy Stout';
+    text-align: center;
+    padding: 20px 0;
+}
+.skills .fila {
+    display: flex;
+}
+.skills .fila .col {
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill {
+    height: 8px;
+    width: 80%;
+    background-color: #d0ddeb;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso {
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+/* Animaciones */
+.skills .skill .javascript { width: 0%; animation: 2s javascript forwards; }
+@keyframes javascript { 0%{width: 0%;} 100%{width: 75%;} }
+.skills .skill .htmlcss { width: 0%; animation: 2s htmlcss forwards; }
+@keyframes htmlcss { 0%{width: 0%;} 100%{width: 89%;} }
+.skills .skill .photoshop { width: 0%; animation: 2s photoshop forwards; }
+@keyframes photoshop { 0%{width: 0%;} 100%{width: 95%;} }
+.skills .skill .wordpress { width: 0%; animation: 2s wordpress forwards; }
+@keyframes wordpress { 0%{width: 0%;} 100%{width: 81%;} }
+.skills .skill .drupal { width: 0%; animation: 2s drupal forwards; }
+@keyframes drupal { 0%{width: 0%;} 100%{width: 55%;} }
+.skills .skill .comunicacion { width: 0%; animation: 2s comunicacion forwards; }
+@keyframes comunicacion { 0%{width: 0%;} 100%{width: 80%;} }
+.skills .skill .trabajo { width: 0%; animation: 2s trabajo forwards; }
+@keyframes trabajo { 0%{width: 0%;} 100%{width: 70%;} }
+.skills .skill .creatividad { width: 0%; animation: 2s creatividad forwards; }
+@keyframes creatividad { 0%{width: 0%;} 100%{width: 99%;} }
+.skills .skill .dedicacion { width: 0%; animation: 2s dedicacion forwards; }
+@keyframes dedicacion { 0%{width: 0%;} 100%{width: 65%;} }
+.skills .skill .proyect { width: 0%; animation: 2s proyect forwards; }
+@keyframes proyect { 0%{width: 0%;} 100%{width: 94%;} }
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+    .skills h2 {
+        font-size: 24px; /* Tamaño de fuente más pequeño para móvil */
+    }
+    .skills .fila .col {
+        width: 100%; /* Colapsa las columnas en una sola */
+        padding: 5px; /* Reduce el padding */
+    }
+    .skills .fila .col h3 {
+        font-size: 20px; /* Tamaño de fuente más pequeño */
+    }
+    .skills .skill .barra-skill {
+        width: 85%; /* Reduce el ancho de la barra para que se vea mejor en móvil */
+    }
+    .skills .skill .barra-skill span {
+        right: -8px; /* Ajusta la posición del indicador */
+        font-size: 12px; /* Tamaño de fuente más pequeño para el indicador */
+    }
+}
+
+
+
+
+/* Estilos para el encabezado "IMÁGENES Y VIDEOS" */
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado vertical */
+    background-color: #1e2326; /* Color gris (plomo) */
+    padding: 50px 20px; /* Espacio interno alrededor del contenido */
+}
+
+.galeria .contenido-FOTOS {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.galeria h2 {
+    font-size: 48px; /* Tamaño para PC */
+    font-family: 'Goudy Stout';
+    text-align: center;
+    padding: 20px 0;
+    color: white; /* Color blanco */
+}
+
+.galeria .contenido-FOTOS p {
+    font-size: 18px; /* Ajuste de la propiedad */
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.galeria .contenido-FOTOS p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+/* Estilos para el video */
+.galeria video {
+    margin-bottom: 20px; /* Espacio inferior para separar del resto de los elementos */
+    border: 5px solid #1CB698; /* Borde grueso de color turquesa */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 20px #1CB698; /* Sombra estilo neón */
+}
+
+/* Estilos para las imágenes */
+.galeria img {
+    width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 10px; /* Espacio inferior entre imágenes */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; /* Evita el ajuste a la siguiente línea */
+    padding: 50px;
+}
+
+.container .box {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #f00;
+    margin: 0 10px; /* Reduce el margen horizontal */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* Evita que las cajas se reduzcan */
+}
+
+.container .box::before,
+.container .box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.container .box::after {
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+}
+
+.container .box:nth-child(1)::before,
+.container .box:nth-child(1)::after {
+    background: linear-gradient(45deg, #ffbc88, #ffbc58);
+}
+
+.container .box:nth-child(2)::before,
+.container .box:nth-child(2)::after {
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.container .box:nth-child(3)::before,
+.container .box:nth-child(3)::after {
+    background: linear-gradient(315deg, #f403b8, #26ff00);
+}
+
+.container .box b {
+    position: absolute;
+    inset: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.container .box img {
+    position: absolute;
+    z-index: 3;
+    width: 100%; /* Ajuste para que ocupe todo el ancho */
+    height: auto; /* Altura automática para mantener la proporción */
+    max-width: 320px; /* Ajuste del ancho máximo */
+    transform: scale(0.7); /* 'scale' en lugar de 'scale' */
+    transition: 0.5s ease-in;
+}
+
+/* Estilos para móviles */
+@media screen and (max-width: 768px) {
+    .galeria h2 {
+        font-size: 26px; /* Tamaño reducido para móvil */
+    }
+
+    .galeria .contenido-FOTOS p {
+        font-size: 14px; /* Tamaño reducido */
+    }
+
+    .container {
+        padding: 15px; /* Menos padding */
+    }
+
+    .container .box {
+        width: 80%; /* Ancho aumentado */
+        height: auto; /* Altura automática */
+    }
+
+    .container .box img {
+        max-width: 100%; /* Ocupa todo el ancho disponible */
+        transform: scale(0.6); /* Aumenta el tamaño de la imagen */
+    }
+}
+
+/* Para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .galeria h2 {
+        font-size: 20px; /* Tamaño aún más pequeño para el título */
+    }
+
+    .container .box {
+        width: 95%; /* Ancho reducido aún más */
+    }
+
+    .container .box img {
+        transform: scale(0.5); /* Aumenta el tamaño de la imagen */
+    }
+}
+
+
+
+/* Fotos */
+.fotos {
+    background-color: #151616;
+    color: #fff;
+    padding: 20px; /* Espacio alrededor del contenedor */
+    margin: 0 auto; /* Centramos el contenedor horizontalmente */
+    text-align: center; /* Centramos el texto */
+}
+
+.fotos .title {
+    font-size: 50px; /* Tamaño del título para PC */
+    font-family: 'Goudy Stout';
+    padding-bottom: 20px; /* Espacio bajo el título */
+    margin-top: 100px; /* Margen superior original para PC */
+}
+
+.bos {
+    position: relative;
+    width: 180px; /* Ancho original para PC */
+    height: 300px; /* Altura original para PC */
+    margin: 140px auto; /* Margen superior original para PC */
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+
+.bos:hover {
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.bos span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 36deg)) translateZ(480px); /* Aumentamos la distancia entre las imágenes */
+}
+
+.bos span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Imágenes ocupan todo el espacio del contenedor */
+    height: 100%; /* Imágenes ocupan todo el espacio del contenedor */
+    transition: 0.5s;
+    border-radius: 15px; /* Radio de borde original para PC */
+    border: 4px double rgb(0, 0, 0); /* Borde original para PC */
+    transform: translateY(-2px);
+}
+/* Media queries para móviles */
+@media (max-width: 600px) {
+    .fotos .title {
+        font-size: 24px; /* Tamaño más pequeño para el título en móvil */
+        margin-top: 30px; /* Ajustar margen superior */
+    }
+
+    .bos {
+        width: 80px; /* Ancho reducido para el slider en móvil */
+        height: 140px; /* Altura reducida para el slider en móvil */
+        margin: 0; /* Sin margen para móvil */
+    }
+
+    .bos span {
+        margin: 0; /* Sin margen en el contenedor de las imágenes */
+    }
+
+    .bos span img {
+        border-radius: 8px; /* Menor radio de borde en móvil */
+        border-width: 1px; /* Borde más delgado en móvil */
+        margin: 0; /* Sin margen entre imágenes */
+        display: block; /* Asegura que no haya espacio adicional */
+        width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+}
+
+/* Para pantallas pequeñas aún más */
+@media (max-width: 400px) {
+    .fotos .title {
+        font-size: 20px; /* Tamaño aún más pequeño para el título */
+    }
+
+    .bos {
+        width: 60px; /* Ancho adicionalmente reducido */
+        height: 100px; /* Altura adicionalmente reducida */
+        margin: 0; /* Sin margen para móvil */
+    }
+
+    .bos span {
+        margin: 0; /* Sin margen en el contenedor de las imágenes */
+    }
+
+    .bos span img {
+        margin: 0; /* Sin margen entre imágenes */
+        display: block; /* Asegura que no haya espacio adicional */
+        width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+}
+
+
+/*  ubicación */
+
+.UBICASION {
+    background-color: #1e2326; /* Fondo negro */
+    padding: 100px; /* Aumentamos el espacio alrededor de las imágenes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centrar contenido horizontalmente */
+}
+
+/* Estilos para el título */
+.UBICASION .title {
+    margin-bottom: 50px; /* Reducimos el espacio entre el título y las imágenes */
+    font-family: 'Goudy Stout'; /* Tipo de letra */
+    font-size: 48px; /* Tamaño de letra para PC */
+    color: white; /* Color del texto */
+    margin-top: -20px; /* Movemos el título hacia arriba */
+}
+
+/* Estilos para las imágenes */
+.images-container {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre las imágenes */
+    align-items: center;
+}
+
+.images-container .imagen1 {
+    width: 600px; /* Ancho original para PC */
+    box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
+.images-container .imagen2 {
+    width: 300px; /* Ancho original para PC */
+    margin-left: 100px;
+    animation: moveUpDown 2s ease-in-out infinite; /* Aplica la animación */
+}
+
+.image-description {
+    margin-top: 20px; /* Espacio entre la imagen y la descripción */
+    color: white; /* Color del texto */
+}
+
+.image-link {
+    text-decoration: none; /* Eliminar subrayado en los enlaces */
+    color: inherit; /* Color del texto heredado */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-5px); /* Empieza 5px arriba de su posición original */
+    }
+    50% {
+        transform: translateY(5px); /* Llega 5px por debajo de su posición original */
+    }
+    100% {
+        transform: translateY(-5px); /* Regresa a 5px arriba de su posición original */
+    }
+}
+
+/* Media queries para móviles */
+@media (max-width: 600px) {
+    .UBICASION {
+        padding: 10px; /* Reduce el padding en móvil */
+    }
+
+    .UBICASION .title {
+        font-size: 20px; /* Tamaño más pequeño para el título en móvil */
+        margin-bottom: 15px; /* Reduce el margen inferior */
+        margin-top: 10px; /* Ajusta el margen superior para bajarlo más */
+    }
+
+    .images-container {
+        flex-direction: column; /* Cambia a columna para mejor visualización */
+        align-items: center; /* Centra las imágenes */
+    }
+
+    .images-container .imagen1 {
+        width: 100%; /* Ancho completo en móvil */
+        max-width: 125px; /* Reduce el ancho máximo a la mitad */
+        margin-bottom: 15px; /* Espacio inferior entre imágenes */
+        margin-top: 20px; /* Agrega margen superior para empujar hacia abajo */
+    }
+
+    .images-container .imagen2 {
+        width: 100%; /* Ancho completo en móvil */
+        max-width: 60px; /* Reduce el ancho máximo a la mitad */
+        margin-left: 0; /* Elimina margen en móvil */
+        margin-top: 20px; /* Agrega margen superior para empujar hacia abajo */
+    }
+
+    .image-description {  
+        font-size: 10px; /* Reduce el tamaño del texto en móvil */
+    }
+}
+
+
+
+
+
+
+
+
+

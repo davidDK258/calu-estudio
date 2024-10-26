@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Fotográfico Calu</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="calu">
+        <header>
+            <div class="logo">
+                <a href="#">CALU</a>
+            </div>  
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar('inicio')">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar('sobremi')">SOBRE CALU</a></li>
+                    <li><a href="#skills" onclick="seleccionar('skills')">NUESTRA CALIDAD</a></li>
+                    <li><a href="#galeria" onclick="seleccionar('galeria')">IMÁGENES ESTUDIO CALU</a></li>
+                    <li><a href="#fotos" onclick="seleccionar('fotos')">SECCIÓN DE FOTOS</a></li>
+                    <li><a href="#UBICASION" onclick="seleccionar('UBICASION')">UBICASION</a></li>
+                   
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+<!-- SECCION INICIO -->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="imagen/1.1.jpeg" alt="">
+        </div>
+        <h2>Visítenos en nuestras plataformas web</h2>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100064374510881" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.link/v0ye8p" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>                    
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@dk.davicito6464"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</section>
+
+
+  <!-- SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>CALU ESTUDIO</h2>
+        <p style="font-size: larger;">Calu Estudio es un estudio fotográfico especializado en una amplia gama de servicios. Entre ellos se incluyen la toma de fotografías para documentos como carnés, pasaportes y visas, así como la restauración de imágenes, ampliaciones y fotografías conmemorativas para difuntos. Nuestro equipo utiliza herramientas profesionales, como Photoshop, para garantizar resultados de alta calidad en todos nuestros trabajos</p>
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    
+                    <li>
+                        <strong>Teléfono</strong>
+                        992253917
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        caluestudio12@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Av. El Sol 346, Cusco 08000 ofina:115
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>fotógrafo</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                   
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        <button class="boton-descarga">
+            <a href="cv.pdf" download class="enlace-descarga" style="color: white;">Descargar CV</a>
+            <i class="fa-solid fa-download" style="color: white; margin-left: 5px;"></i>
+            <span class="overlay"></span>
+        </button>        
+    </div>
+</section>
+<!-- SECCION SKILLS -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>CALIDA Y EFECTIVIDAD</h2>
+        <div class="fila">
+            <!-- Technical Skill -->
+            <div class="col">
+                <h3>Tecnica fotografia</h3>
+                <div class="skill">
+                    <span>edicion</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>experiencia</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>Professional Fotografica</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+
+
+<section class="galeria" id="galeria">
+    <div class="contenido-FOTOS"></div>
+    <h2>IMÁGENES ESTUDIO CALU</h2>
+
+
+        <div class="container">
+        <div class="box">
+            <b></b>
+            <img src="imagen/1.1.JPG" alt="">
+        </div>
+        <div class="box">
+            <b></b>
+            <img src=" imagen/2.1.JPG" alt="">
+        </div>   
+        <div class="box">
+            <b></b>
+            <img src=" imagen/3.1.JPG" alt="">
+        </div>   
+        <div class="box">
+            <b></b>
+            <img src=" imagen/4.1.JPG" alt="">
+        </div> 
+</section>
+
+<section class="fotos" id="fotos">
+    <h2 class="title">SECCIÓN DE FOTOS</h2>
+
+    <div class="bos">
+
+        <span style="--i:1"><img src=" slider/1.JPG"></span>
+        <span style="--i:2"><img src=" slider/2.jpg"></span>
+        <span style="--i:3"><img src=" slider/3.JPG"></span>
+        <span style="--i:4"><img src=" slider/4.JPG"></span>
+        <span style="--i:5"><img src=" slider/5.JPG"></span>
+        <span style="--i:6"><img src=" slider/6.png"></span>
+        <span style="--i:7"><img src=" slider/7.png"></span>
+        <span style="--i:8"><img src=" slider/9.jpg"></span>
+        <span style="--i:9"><img src=" slider/8.jpg"></span>
+        <span style="--i:10"><img src="slider/10.JPG"></span>
+
+    </div>
+
+</section>
+
+<section>
+    <section class="UBICASION" id="UBICASION">
+        <h2 class="title">NOS UBICAMOS</h2>
+        <div class="images-container">
+            <a href="https://maps.app.goo.gl/NiuGgS4cba6H45ZC9" class="image-link">
+                <img class="imagen1" src="imagen/ubicasion.png" alt="Ubicación">
+                <p class="image-description">Dirección: Av. El Sol 346, Cusco 08000 oficina:115</p>
+            </a>
+            <a href="#" class="image-link">
+                <img class="imagen2" src="imagen/1.2.3.png" alt="Imagen 123">
+            </a>
+        </div>
+    </section>
+</section>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
